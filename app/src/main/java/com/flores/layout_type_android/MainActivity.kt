@@ -16,5 +16,8 @@ class MainActivity : AppCompatActivity() {
         btnLinearlayout.setOnClickListener {
             startActivity(Intent(this, LinearLayoutActivity::class.java))
         }
+        btnRelativeLayout.setOnClickListener {
+            startActivity(Intent(this, LinearLayoutActivity::class.java))
+        }
     }
 }

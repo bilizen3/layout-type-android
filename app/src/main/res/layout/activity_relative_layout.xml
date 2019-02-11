@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RelativeLayoutActivity">
+
+    <Button
+            android:id="@+id/button1"
+            android:text="button1"
+            android:textSize="40sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+    <Button
+            android:id="@+id/button2"
+            android:text="button2"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignEnd="@+id/button1"
+            android:layout_alignStart="@+id/button1"/>
+
+    <Button
+            android:id="@+id/button3"
+            android:text="button3"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toStartOf="@id/button2"/>
+
+    <Button
+            android:id="@+id/button4"
+            android:text="button4"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button2"
+            android:layout_alignStart="@id/button2"/>
+    <Button
+            android:id="@+id/button5"
+            android:text="button5"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/button2"
+            android:layout_toEndOf="@id/button2"/>
+
+    <Button
+            android:id="@+id/button6"
+            android:text="button6"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/button2"
+            android:layout_alignEnd="@id/button2"/>
+
+</RelativeLayout>
