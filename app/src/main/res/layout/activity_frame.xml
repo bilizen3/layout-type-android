@@ -5,28 +5,58 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".FrameActivity">
-    <Button
+
+    <androidx.appcompat.widget.AppCompatButton
             android:text="button 1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top"/>
-    <Button
+
+    <androidx.appcompat.widget.AppCompatButton
             android:text="button 2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    <Button
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"/>
+
+    <androidx.appcompat.widget.AppCompatButton
             android:text="button 3"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    <Button
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"/>
+
+    <androidx.appcompat.widget.AppCompatButton
             android:text="button 4"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    <Button
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+    <androidx.appcompat.widget.AppCompatButton
             android:text="button 5"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"/>
+    <androidx.appcompat.widget.AppCompatButton
+            android:text="button 6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"/>
 
+    <androidx.appcompat.widget.AppCompatButton
+            android:text="button 7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"/>
 
+    <androidx.appcompat.widget.AppCompatButton
+            android:text="button 8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:text="button 9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"/>
 
 </FrameLayout>
