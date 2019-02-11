@@ -11,10 +11,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btnFrameLayout.setOnClickListener {
-            startActivity(Intent(this, FrameActivity::class.java))
+            startActivity(Intent(this, FrameLayoutActivity::class.java))
         }
         btnLinearlayout.setOnClickListener {
-
+            startActivity(Intent(this, LinearLayoutActivity::class.java))
         }
     }
 }

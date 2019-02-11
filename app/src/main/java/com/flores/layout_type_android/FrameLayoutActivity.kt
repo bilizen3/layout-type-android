@@ -3,7 +3,7 @@ package com.flores.layout_type_android
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class FrameActivity : AppCompatActivity() {
+class FrameLayoutActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

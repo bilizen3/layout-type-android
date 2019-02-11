@@ -11,16 +11,20 @@
             android:text="FrameLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/btnFrameLayout"/>
+            android:id="@+id/btnFrameLayout"
+            android:textAllCaps="false"/>
     <Button
             android:text="Linearlayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/btnLinearlayout"/>
+            android:id="@+id/btnLinearlayout"
+            android:textAllCaps="false"/>
     <Button
-            android:text=""
+            android:text="RelativeLayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/button3"/>
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:textAllCaps="false"/>
     <Button
             android:text="Button"
             android:layout_width="match_parent"
