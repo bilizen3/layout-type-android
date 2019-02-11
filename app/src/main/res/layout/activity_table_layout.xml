@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="0,1"
+        android:collapseColumns="4"
+        tools:context=".TableLayoutActivity">
+
+    <TableRow>
+        <androidx.appcompat.widget.AppCompatButton
+                android:text="button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+                android:text="button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+                android:text="button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+                android:text="button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+                android:text="button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+                android:text="button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+                android:text="button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow>
+        <androidx.appcompat.widget.AppCompatButton
+                android:text="button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+                android:text="button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+                android:text="button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"/>
+        <androidx.appcompat.widget.AppCompatButton
+                android:text="button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="5"/>
+    </TableRow>
+
+</TableLayout>

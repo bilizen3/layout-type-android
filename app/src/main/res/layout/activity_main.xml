@@ -26,9 +26,10 @@
             android:id="@+id/btnRelativeLayout"
             android:textAllCaps="false"/>
     <Button
-            android:text="Button"
+            android:text="TableLayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/button4"/>
+            android:layout_height="wrap_content"
+            android:id="@+id/btnTableLayout"/>
     <Button
             android:text="Button"
             android:layout_width="match_parent"
